@@ -1,4 +1,4 @@
-586f2404c1046c5f0e595df8f1dd97b8 *DESCRIPTION
+abba8648a017070b8cfed21af74e140c *DESCRIPTION
 ea3c4f114416ebd42b96e856bdfb8242 *NAMESPACE
 8287068e419e5a4e8810fc18722519ac *R/CIefrKM.R
 d838c4d47729f6a1719281e9dcd73e0f *R/CIhwKM.R
@@ -14,7 +14,7 @@ ae19e3a601d301c517bd532751e51ed8 *R/binomInference.cscore.R
 111380216f3aa3fb92c90cde3a7e28db *R/binomInference.jeffreys.R
 871badab3198c182a08d64267240db20 *R/binomInference.score.R
 36be93d7d3f44164e17adf8fa89e7a83 *R/binomInference.wald.R
-43b42f1e843bc2183870d8e719015d4e *R/bplot.R
+eea74b9783e6ece85bd630d737d5c853 *R/bplot.R
 aadcdbfd2075ef58a24fca35e1e1615d *R/clusterStats.R
 bfa15cba1d2e682b4670f1473e2c718a *R/clusterStatsOld.R
 a3547d68da7a31f4bb9ff4854bc643cb *R/correlate.R
@@ -25,7 +25,7 @@ a89813e886010881e7c64f4a3ff45eeb *R/descrip.R
 c37754a378bb3c5721cda4f41e71f9a7 *R/fitted.uRegress.R
 b99d3d63eb825d59c1f6fb1abadc53d1 *R/ifelse1.R
 690e497bc7f1a5c08377efb97d31fce2 *R/indentNames.R
-125006e311d6665a6184a72b48741fc5 *R/lincom.R
+daa022ed3f663237b04b208885e1176d *R/lincom.R
 a5c955cba0a0b833e79cbd9713fa0582 *R/listTests.R
 5062d85251c348d878efd11bc37f0acf *R/lspline.R
 15754f945938be9232263763948ebcfb *R/lsplineD.R
@@ -34,7 +34,7 @@ f45371d4eec94863711728ccfc500640 *R/pasteTwo.R
 c6f5e21c5b3471592dca5693cc74e8ea *R/pasting_args.R
 acf2f2ce05b0582bd3e6f7f1096d6134 *R/plot.ttest.R
 d30bf6d4071546e69a08312cd5f28917 *R/polynomial.R
-c8d6b96420b08b24dcc8fc29acf28865 *R/predict.uRegress.R
+1045ddbd3a46b2f02306886ac3c3ca23 *R/predict.uRegress.R
 c6dfeed27e66d8589acbe1e19d709855 *R/print.augCoefficients.R
 8af8420da373195f089472512cbbfc94 *R/print.tableStat.R
 c766c28fbbcb58c6334633dec38fbc7e *R/print.tabulate.R
@@ -61,17 +61,17 @@ a0f1c08bc92fe0b02c6799b438b7fcf6 *R/tabulate.R
 bf0662662cf368ba77c615c72f6317a2 *R/uWaldtest.R
 3da81eb7b028afa3207dcfbf349f31c2 *R/uwIntroStats-internal.R
 c67d9359855133cee6bbf996377b4a7b *R/wilcoxon.R
-8bfea08ded8e665a714ccf2e7f14630b *build/vignette.rds
+7e633fe8b39cba341970e42b440a9514 *build/vignette.rds
 a0ded0040bb41947a37b6c1744a354d2 *data/mri.rda
 627eee8d336c007605f12ecf082be338 *inst/doc/regress_intro.R
 0a03bbfd12af54cc519ecab11e00e1f1 *inst/doc/regress_intro.Rmd
-204c4b9754082c230101e8634cb79e6e *inst/doc/regress_intro.html
+659e4001a1c9c04dd1b2fad4cd79533a *inst/doc/regress_intro.html
 13618f77423ac260e991c311899e57da *inst/doc/test_cases.R
 ec15b4cae009ab4499da6dd87b75f3ff *inst/doc/test_cases.Rmd
-d16936954bac05e98d41e4e54d8897f5 *inst/doc/test_cases.html
+0f5a2ac014776e21ee86d9093239207e *inst/doc/test_cases.html
 f057b5a761a5a94bf6d640481478391e *inst/doc/u_intro.R
 a1f575a9ff3203a38c2cce04fa1071e7 *inst/doc/u_intro.Rmd
-49d01a6253fd39cab7497d8fe6f318ff *inst/doc/u_intro.html
+ce375be1de3d8479a6a966f1150bd191 *inst/doc/u_intro.html
 32984ac2dafee9938493061984dc3a26 *man/U.Rd
 e6d9399093b21c6cb50c1df62605289a *man/bplot.Rd
 10db97ddfca8526b13753cd395c4d38c *man/clusterStats.Rd
@@ -83,7 +83,7 @@ b80b11dc90da1df9c233d06fb2a548b3 *man/dummy.Rd
 5a0d003840e2cffe118c2a0ca4bafd69 *man/mri.Rd
 65ab5712ae7d902fd9107323dc3e6e93 *man/oneSample.Rd
 6af4da56ede88ceb8826a3e78a86aa48 *man/polynomial.Rd
-4596b839277770af48a702dd5efcd705 *man/predict.uRegress.Rd
+07e319197361cc1f46d2c7a3c2d2edef *man/predict.uRegress.Rd
 8f7b88b923b7683c393ee183a982380c *man/regress.Rd
 1a3c3dc02350d165f566ff310eec70fc *man/scatter.Rd
 76227e8071a6357290784c1bfb721cf8 *man/tableStat.Rd
