@@ -1,4 +1,4 @@
-abba8648a017070b8cfed21af74e140c *DESCRIPTION
+c2a5b4962449af4184dfeec8ed773403 *DESCRIPTION
 ea3c4f114416ebd42b96e856bdfb8242 *NAMESPACE
 8287068e419e5a4e8810fc18722519ac *R/CIefrKM.R
 d838c4d47729f6a1719281e9dcd73e0f *R/CIhwKM.R
@@ -54,7 +54,7 @@ e2d66c7021075a6c4a41c2ff6227ed0d *R/tabModel.R
 4c321a442f90d1691cad145aeac6a62f *R/tableStat.R
 a0f1c08bc92fe0b02c6799b438b7fcf6 *R/tabulate.R
 388ef894bd00c16933ef71524636ef8e *R/termTraverse.R
-278ebf7d115967931f5b4c0dda456b67 *R/ttest.R
+f3d0bafd97dc2166d6b71afd1c0d414b *R/ttest.R
 223d4be58c2a60529c79934d2d7c922f *R/ttesti.R
 0d4fe9e4bb727db2a6c415b40aa7bb67 *R/uLRtest.R
 8de6483f30d796225690944790beee4e *R/uResiduals.R
@@ -65,13 +65,13 @@ c67d9359855133cee6bbf996377b4a7b *R/wilcoxon.R
 a0ded0040bb41947a37b6c1744a354d2 *data/mri.rda
 627eee8d336c007605f12ecf082be338 *inst/doc/regress_intro.R
 0a03bbfd12af54cc519ecab11e00e1f1 *inst/doc/regress_intro.Rmd
-659e4001a1c9c04dd1b2fad4cd79533a *inst/doc/regress_intro.html
+bb528e81f41620a4425a26db3231ed0e *inst/doc/regress_intro.html
 13618f77423ac260e991c311899e57da *inst/doc/test_cases.R
 ec15b4cae009ab4499da6dd87b75f3ff *inst/doc/test_cases.Rmd
-0f5a2ac014776e21ee86d9093239207e *inst/doc/test_cases.html
+3715ac370ccc94dd3dc63d7d31faf3eb *inst/doc/test_cases.html
 f057b5a761a5a94bf6d640481478391e *inst/doc/u_intro.R
 a1f575a9ff3203a38c2cce04fa1071e7 *inst/doc/u_intro.Rmd
-ce375be1de3d8479a6a966f1150bd191 *inst/doc/u_intro.html
+4ed37dded06e623cec7219a820ffcf45 *inst/doc/u_intro.html
 32984ac2dafee9938493061984dc3a26 *man/U.Rd
 e6d9399093b21c6cb50c1df62605289a *man/bplot.Rd
 10db97ddfca8526b13753cd395c4d38c *man/clusterStats.Rd
