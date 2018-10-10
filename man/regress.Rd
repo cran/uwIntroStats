@@ -124,8 +124,7 @@ if \code{TRUE}, returns the version of the function. No other computation is per
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 Regression models include linear regression (for the ``mean'' functional), logistic regression (for the ``odds''
-functional), Poisson regression (for the ``rate'' functional), and proportional hazards regression (for the
-``hazard'' functional). Penalized proportional hazards regression and time-transform are not supported in the \code{regress} function. Objects created using the \code{\link[uwIntroStats]{U}} function can also be passed in. If the \code{\link[uwIntroStats]{U}} call involves a partial formula of the form \code{~ var1 + var2}, then \code{regress} will return a multiple-partial F-test involving \code{var1} and \code{var2}. The multiple partial tests must be the last terms specified in the model (i.e. no other predictors can follow them).
+functional), Poisson regression (for the ``rate'' functional).  Proportional hazards regression is currently not supported in the \code{regress} function. Objects created using the \code{\link[uwIntroStats]{U}} function can also be passed in. If the \code{\link[uwIntroStats]{U}} call involves a partial formula of the form \code{~ var1 + var2}, then \code{regress} will return a multiple-partial F-test involving \code{var1} and \code{var2}. The multiple partial tests must be the last terms specified in the model (i.e. no other predictors can follow them).
 
 }
 \value{
@@ -139,7 +138,7 @@ An object of class uRegress is returned. Parameter estimates, confidence interva
 
 \author{
 %%  ~~who you are~~
-Scott S. Emerson, M.D., Ph.D., Andrew J. Spieker, Brian D. Williamson
+Scott S. Emerson, M.D., Ph.D., Andrew J. Spieker, Brian D. Williamson, Travis Hee Wai
 }
 
 \seealso{
@@ -170,10 +169,6 @@ regress("mean", atrophy~ male + U(ra=~race*age), data=mri)
 ## Linear regression of atrophy on age, male, race (as a dummy variable), chf,
 ## and diabetes. There are two multiple partial F-tests and both are named
 regress("mean", atrophy~age+male+U(rc=~dummy(race)+chf)+U(md=~male+diabetes), data=mri)
-
-## Proportional hazards regression clustered on id 
-## (here it makes no difference because the ids are unique)
-regress("hazard", ttodth~ldl, id=ptid, data=mri)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

@@ -30,7 +30,6 @@ We use the concept of a *functional* to handle our first goal. A functional take
 |`"geometric mean"` | Linear Regression on logarithmically transformed Y | `lm()`, with Y log transformed (`stats` - base R) |
 |`"odds"` | Logistic Regression | `glm(family = binomial)` (`stats` - base R) |
 |`"rate"` | Poisson Regression | `glm(family = poisson)` (`stats` - base R) |
-|`"hazard"` | Proportional Hazards Regression | `coxph()` (`survival`)|
 
 The *formula* to `regress()` is the same as a formula given to `lm()` or any of the other regression commands from base R, `survival`, or `geepack`, but with one small addition. To address our second goal of allowing the user to specify multiple-partial F-tests, we have added a special function - `U()` - which can be added to the formula. The `U()` function is documented more fully in ["User Specified Multiple-Partial F-tests in Regression"](u_intro.html). 
 
@@ -79,20 +78,7 @@ In all of the generalized linear regression output (and in the output from regre
 
 The `Transformed Model` table does the back-transform for you. It exponentiates all of the coefficients and the confidence intervals so that they are in the original units. 
 
-If we were doing survival analysis, we would perhaps want to look at the relationship between time to death, age, and atrophy. First, we need to create a `Surv` variable to reflect time to death, because some observations have been censored - we didn't observe their death due to the end of the study or because we lost them to followup. To create a survival variable we have to load the appropriate package first.
-
-```{r}
-library(survival)
-mri$ttodth <- Surv(mri$obstime, mri$death)
-```
-
-Now that we have our time to death variable, we can examine our relationship of interest.
-
-```{r}
-regress("hazard", ttodth ~ age + atrophy, data = mri)
-```
-
-We can analyze the results from the `Transformed Model` table similar to the results in the Linear Regression section, because this table returns us to the original units.
+Proportional hazards regression is no longer supported.
 
 # Accounting for Correlated Data
 

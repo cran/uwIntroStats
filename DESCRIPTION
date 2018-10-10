@@ -2,8 +2,8 @@ Package: uwIntroStats
 Type: Package
 Title: Descriptive Statistics, Inference, Regression, and Plotting in
         an Introductory Statistics Course
-Version: 0.0.5
-Date: 2018-4-2
+Version: 0.0.7
+Date: 2018-10-9
 Maintainer: Travis Y. Hee Wai <theewai@uw.edu>
 Authors@R: c(person(given = "Scott S.", family = "Emerson", role = "aut"),
 	     person(given = "Andrew J.", family = "Spieker", role = "aut"),
@@ -19,7 +19,7 @@ License: GPL-2
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2018-04-03 05:01:34 UTC; travhw
+Packaged: 2018-10-10 02:27:52 UTC; theewai
 Author: Scott S. Emerson [aut],
   Andrew J. Spieker [aut],
   Brian D. Williamson [aut],
@@ -29,4 +29,4 @@ Author: Scott S. Emerson [aut],
   Terry M Therneu [ctb],
   Thomas Lumley [ctb]
 Repository: CRAN
-Date/Publication: 2018-04-03 05:23:13 UTC
+Date/Publication: 2018-10-10 11:50:02 UTC

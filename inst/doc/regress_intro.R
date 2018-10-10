@@ -10,13 +10,6 @@ regress("mean", atrophy ~ age + male, data = mri)
 regress("odds", diabetes ~ male, data = mri)
 
 ## ------------------------------------------------------------------------
-library(survival)
-mri$ttodth <- Surv(mri$obstime, mri$death)
-
-## ------------------------------------------------------------------------
-regress("hazard", ttodth ~ age + atrophy, data = mri)
-
-## ------------------------------------------------------------------------
 salary <- read.table("http://www.emersonstatistics.com/datasets/salary.txt", header = TRUE, stringsAsFactors = FALSE)
 
 ## create an indicator variable

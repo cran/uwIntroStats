@@ -31,11 +31,11 @@
 ## Version: 2015 06 02
 regress <-
   function(fnctl, formula, data,                     # the terms in the regression analysis
-            intercept = fnctl != "hazard", 
-            strata = rep(1,n), weights = rep(1,n), id = 1:n, ties = "efron", subset = rep(TRUE,n),
-            robustSE = TRUE, conf.level = 0.95, exponentiate=fnctl != "mean",
-            replaceZeroes, useFdstn = TRUE, suppress = FALSE, na.action, method = "qr", model.f = TRUE, model.x = FALSE, model.y = FALSE, qr = TRUE,
-            singular.ok = TRUE, contrasts = NULL, offset,control = list(...), init, ..., version = FALSE) {
+           intercept = fnctl != "hazard", 
+           strata = rep(1,n), weights = rep(1,n), id = 1:n, ties = "efron", subset = rep(TRUE,n),
+           robustSE = TRUE, conf.level = 0.95, exponentiate=fnctl != "mean",
+           replaceZeroes, useFdstn = TRUE, suppress = FALSE, na.action, method = "qr", model.f = TRUE, model.x = FALSE, model.y = FALSE, qr = TRUE,
+           singular.ok = TRUE, contrasts = NULL, offset,control = list(...), init, ..., version = FALSE) {
     
     vrsn <- "20160301"
     if (version) return(vrsn)
@@ -49,6 +49,7 @@ regress <-
     findx <-  pmatch(fnctl,c("mean", "geometric mean", "odds", "rate", "hazard"))
     if (is.na(findx)) stop("unsupported functional")
     fnctl <- c("mean", "geometric mean", "odds", "rate", "hazard")[findx]
+    if(fnctl=="hazard") stop("proportional hazards regression no longer supported")
     if (intercept & fnctl=="hazard") stop("hazard regression cannot include an intercept")
     glm <- FALSE
     ## get the family for glm if we need it
@@ -848,7 +849,7 @@ regress <-
           tmp <- c(tmp, newTerms)
           
         }
-
+        
         indx2 <- grepl(" ", preds)
         indx <- apply(matrix(tmp, nrow=1), 2, function(x) x==cols)
         indx <- apply(indx, 1, sum)

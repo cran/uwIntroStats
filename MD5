@@ -1,4 +1,4 @@
-c2a5b4962449af4184dfeec8ed773403 *DESCRIPTION
+4990b0fff0e175d80b492ed7960466ff *DESCRIPTION
 ea3c4f114416ebd42b96e856bdfb8242 *NAMESPACE
 8287068e419e5a4e8810fc18722519ac *R/CIefrKM.R
 d838c4d47729f6a1719281e9dcd73e0f *R/CIhwKM.R
@@ -47,7 +47,7 @@ cbc4649c9b5b8dfad82b046c55f97935 *R/print.uRegress.R
 f17d3dc2734f96a892bfe43058db494f *R/processTerm.R
 b533fe9079bcb113e26bcffc87d1b7f2 *R/qSupBrnBrdg.R
 540b14d558ce23ba2844e27d8341a4f9 *R/qSupBrnMotn.R
-d5b4406f0c7ac673736fbac4b0909ca0 *R/regress.R
+45e3fd8ef3946d1c2a56d5938d625ac4 *R/regress.R
 d9efdc89c26e7e2483dc0d5fe936269c *R/scatter.R
 9d301c17e581f810bccc73bec217f99c *R/splitOnParen.R
 e2d66c7021075a6c4a41c2ff6227ed0d *R/tabModel.R
@@ -61,17 +61,17 @@ f3d0bafd97dc2166d6b71afd1c0d414b *R/ttest.R
 bf0662662cf368ba77c615c72f6317a2 *R/uWaldtest.R
 3da81eb7b028afa3207dcfbf349f31c2 *R/uwIntroStats-internal.R
 c67d9359855133cee6bbf996377b4a7b *R/wilcoxon.R
-7e633fe8b39cba341970e42b440a9514 *build/vignette.rds
+2b939335d38c30450e3f9a7cb4786764 *build/vignette.rds
 a0ded0040bb41947a37b6c1744a354d2 *data/mri.rda
-627eee8d336c007605f12ecf082be338 *inst/doc/regress_intro.R
-0a03bbfd12af54cc519ecab11e00e1f1 *inst/doc/regress_intro.Rmd
-bb528e81f41620a4425a26db3231ed0e *inst/doc/regress_intro.html
+f70aa70c5767f1bf92c4b8c3d2ecccb4 *inst/doc/regress_intro.R
+6cf55baee1c34e60a29cff3ec562cc9f *inst/doc/regress_intro.Rmd
+ae6df82e5f46e8cf4ac447bb9ff614ac *inst/doc/regress_intro.html
 13618f77423ac260e991c311899e57da *inst/doc/test_cases.R
 ec15b4cae009ab4499da6dd87b75f3ff *inst/doc/test_cases.Rmd
-3715ac370ccc94dd3dc63d7d31faf3eb *inst/doc/test_cases.html
+9c1293d5707f755b6569f8dc6972970c *inst/doc/test_cases.html
 f057b5a761a5a94bf6d640481478391e *inst/doc/u_intro.R
 a1f575a9ff3203a38c2cce04fa1071e7 *inst/doc/u_intro.Rmd
-4ed37dded06e623cec7219a820ffcf45 *inst/doc/u_intro.html
+858430037bb887e0557b71aa305639ae *inst/doc/u_intro.html
 32984ac2dafee9938493061984dc3a26 *man/U.Rd
 e6d9399093b21c6cb50c1df62605289a *man/bplot.Rd
 10db97ddfca8526b13753cd395c4d38c *man/clusterStats.Rd
@@ -84,7 +84,7 @@ b80b11dc90da1df9c233d06fb2a548b3 *man/dummy.Rd
 65ab5712ae7d902fd9107323dc3e6e93 *man/oneSample.Rd
 6af4da56ede88ceb8826a3e78a86aa48 *man/polynomial.Rd
 07e319197361cc1f46d2c7a3c2d2edef *man/predict.uRegress.Rd
-8f7b88b923b7683c393ee183a982380c *man/regress.Rd
+07e516702f4b28cb3b6ac71a3d1a0e10 *man/regress.Rd
 1a3c3dc02350d165f566ff310eec70fc *man/scatter.Rd
 76227e8071a6357290784c1bfb721cf8 *man/tableStat.Rd
 bf1847d33a5a6b17583fec6e62b18abe *man/tabulate.Rd
@@ -93,6 +93,6 @@ bf1847d33a5a6b17583fec6e62b18abe *man/tabulate.Rd
 f1f251f2aceab75e6a869e068169bbe7 *man/uResiduals.Rd
 017b06165a60222d4d4f3c813f753c80 *man/uwIntroStats-package.Rd
 b27a7524b0c7f11f29478c7d7d9279f9 *man/wilcoxon.Rd
-0a03bbfd12af54cc519ecab11e00e1f1 *vignettes/regress_intro.Rmd
+6cf55baee1c34e60a29cff3ec562cc9f *vignettes/regress_intro.Rmd
 ec15b4cae009ab4499da6dd87b75f3ff *vignettes/test_cases.Rmd
 a1f575a9ff3203a38c2cce04fa1071e7 *vignettes/u_intro.Rmd
